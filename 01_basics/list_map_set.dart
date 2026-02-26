@@ -36,7 +36,7 @@ void main() {
   //map<keyType, valueType>
   Map<String, dynamic> user = {'name': 'Intern', 'day': 16, 'isexcited': true};
 
-  print(user['name']);
+  // print(user['name']);
 
   //adding a new pair
   user['location'] = 'remote';
