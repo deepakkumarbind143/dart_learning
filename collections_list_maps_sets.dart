@@ -60,3 +60,33 @@ void main(List<String> args) {
 
   // print(sentence);
 }
+
+//# common List Operations
+
+// fruits.add("Mango");
+// fruits.remove("Banana");
+// fruits.contains("Apple");
+// fruits.insert(1, "Orange");
+
+//#common set operation
+
+// fruits.add("Mango");
+// fruits.remove("Banana");
+// fruits.contains("Apple");
+
+// A Map is:
+
+// A collection of key-value pairs
+
+// Like a dictionary.
+
+Map<String, int> marks = {"John": 90, "Emma": 85};
+
+// print(marks["John"]); // 90
+
+// Common Map Operations
+
+// marks["Alex"] = 75;
+// marks.remove("Emma");
+// marks.containsKey("John");
+// marks.containsValue(90);

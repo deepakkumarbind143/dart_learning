@@ -8,4 +8,6 @@ void main() {
   final foo2 = "Foo";
   print(foo.hashCode);
   print(foo2.hashCode);
+
+  //" contanins " fuction can be used
 }
