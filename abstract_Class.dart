@@ -95,3 +95,84 @@ void main() {
 // State
 // RenderObject
 
+
+// when to use abstract class 
+// Define required methods
+// Create base architecture
+// Enforce contracts
+
+// exmple 
+// Repository pattern
+// Service layer
+// State management
+
+// 4️⃣ Mental Model
+
+// Think like this:
+
+// Abstract Class
+
+// Blueprint of a machine
+
+
+// Mixin
+
+// Attach extra features to machine
+
+
+// Example:
+
+// Car (abstract class)
+// GPS (mixin)
+// Bluetooth (mixin)
+// Camera (mixin)
+
+// abstract class vehicle {
+//   void startEngine();
+
+// }
+
+// mixin Flyable {
+//   void fly()=> print("Flying");
+// }
+
+// class Plane extends vehicle with Flyable {
+//   @override
+//   void startEngine(){
+//     print("Engine Started");
+//   }
+// }
+
+// void main(){
+//   Plane p = Plane();
+//   p.startEngine();
+//   p.fly();
+// }
+
+// Interfaces
+
+// In Dart every class is automatically an interface.
+
+// example: 
+// class Animal {
+//   void sound() {
+//     print("Animal sound");
+//   }
+// }
+
+// Now another class can implement it.
+// class Dog implements Animal {
+//   @override
+//   void sound() {
+//     print("Bark");
+//   }
+// }
+
+// key rule: 
+// implements → must override ALL methods 
+// Even if they already have implementations.
+
+// Sealed Classes (Modern Dart)
+// Sealed classes restrict who can extend the class.
+
+// They are mainly used for state management and pattern matching
